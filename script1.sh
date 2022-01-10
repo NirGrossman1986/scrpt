@@ -11,4 +11,4 @@ sudo apt -y install zip unzip
 sudo aws s3 cp s3://workshop-tf-state-nirg/terraform_project.zip ~/
 cd ~
 sudo unzip ~/terraform_project.zip
-
+bash terraform_apply.sh
